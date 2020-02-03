@@ -34,7 +34,6 @@ int main(){
   string res,hold;
   for(int i=0;i<num;i++){
 
-    skip=false;
     while(!s.empty()){
       s.pop();
     }
@@ -46,7 +45,6 @@ int main(){
         break;
       }
 
-      already=false;
       if(map[nx]==0){
         res+=nx;
       }else{
